@@ -1,0 +1,59 @@
+
+.nav {
+ ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; 
+}
+
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+  .nav__item {
+    margin-right: 50px; 
+  }
+
+  a {
+    color: #989797; 
+    text-decoration: none;
+  }
+}
+
+.nav__buttons {
+  margin-left: 900px; 
+}
+
+.nav__link--login {
+  background-color: $primary-color; 
+  color: #989797; 
+  padding: 10px 30px; 
+  text-decoration: none;
+  margin-right: 10px; 
+  margin-left: auto;
+ border: 1px solid #989797;
+ 
+ 
+}
+
+.nav__link--login:hover {
+  background-color: #34495e; 
+ background-color: lighten($primary-color, 10%); 
+}
+
+.nav__link--register {
+  background-color: $secondary-color; 
+  color: white; 
+  padding: 10px 40px;
+  text-decoration: none; 
+   margin-left: auto;
+   
+}
+
+.nav__link--register:hover {
+  background-color: lighten($secondary-color, 10%); 
+}

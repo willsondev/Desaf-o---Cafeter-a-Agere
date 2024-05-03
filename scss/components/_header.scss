@@ -1,0 +1,15 @@
+// Estilos para el encabezado
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.header__logo {
+  position: relative;
+  margin-right: 120px; 
+  width: 60px;
+  height: 60px; 
+  right: -60px;
+}
